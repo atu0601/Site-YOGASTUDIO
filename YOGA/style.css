@@ -1,0 +1,167 @@
+body {
+  color: #4f3177;
+  font-family: Arial, sans-serif;
+}
+
+.Copyright {
+  font-style: italic;
+}
+
+.banner {
+  background-image: url("Images/hhugo_fleur.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 105%;
+  text-align: center;
+  color: #4f3177;
+  padding: 20px;
+  box-sizing: border-box;
+  border: none;
+  position: relative;
+  margin-left: -20px;
+}
+
+.banner h1 {
+  margin-top: 85px;
+  margin-right: 900px;
+}
+
+.color-bar1 {
+  background-color: #dae8e9;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  top: 250px;
+  left: 0;
+  z-index: 1;
+}
+
+
+.image-container h1 {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.image2 {
+  overflow: hidden;
+}
+
+.image2 img {
+  float: right;
+  width: 230px;
+  height: 400px;
+  margin-top: -100px;
+  margin-right: 100px;
+}
+
+.Copyright {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.nav-list li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #4f3177;
+  font-weight: bold;
+}
+
+.color-bar {
+  background-color: #86b4b6;
+  height: 55px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.image-pleine-largeur {
+  width: 90%;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.contenu-principal {
+  margin-bottom: 90px;
+}
+
+.progyoga {
+  margin-top: 40px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 90px auto; /* Augmentez la marge supérieure pour abaisser le formulaire */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
